@@ -1,0 +1,44 @@
+* {
+     margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.but {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1 {
+    font: 72px;
+    font-weight: bold;
+    color: white;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#result {
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
